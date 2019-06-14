@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteNotify", "RemoteNotify\RemoteNotify.vcxproj", "{5DD4DD77-A55A-47E1-9BCC-30AB66068804}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CEE7CE4-884A-4415-81C6-E38784E63701} = {0CEE7CE4-884A-4415-81C6-E38784E63701}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteNotifyInject", "RemoteNotifyInject\RemoteNotifyInject.vcxproj", "{0CEE7CE4-884A-4415-81C6-E38784E63701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Debug|x64.ActiveCfg = Debug|x64
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Debug|x64.Build.0 = Debug|x64
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Debug|x86.ActiveCfg = Debug|Win32
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Debug|x86.Build.0 = Debug|Win32
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Release|x64.ActiveCfg = Release|x64
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Release|x64.Build.0 = Release|x64
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Release|x86.ActiveCfg = Release|Win32
+		{5DD4DD77-A55A-47E1-9BCC-30AB66068804}.Release|x86.Build.0 = Release|Win32
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Debug|x64.ActiveCfg = Debug|x64
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Debug|x64.Build.0 = Debug|x64
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Debug|x86.Build.0 = Debug|Win32
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Release|x64.ActiveCfg = Release|x64
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Release|x64.Build.0 = Release|x64
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Release|x86.ActiveCfg = Release|Win32
+		{0CEE7CE4-884A-4415-81C6-E38784E63701}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC3DBEDF-38C7-4095-B2DA-1F23BDCF3834}
+	EndGlobalSection
+EndGlobal
